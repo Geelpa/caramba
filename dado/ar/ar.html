@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ar Condicionado</title>
+    <script src="https://kit.fontawesome.com/03aeeebc9c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../ar/ar.css">
+    <link rel="stylesheet" href="/nav-bar.css">
+    <script>
+        function play() {
+    var audio = document.getElementById("audio");
+    if (audio.paused) {
+        audio.play()
+      } else {
+        audio.currentTime = 0
+      } 
+    
+  }
+  window.addEventListener("keydown", checkKeyPress, false);
+
+  function checkKeyPress(key) {
+      if (key.keyCode == 13) {
+          var audio = document.getElementById("audio");
+          audio.play();
+      }
+  }  
+    </script>
+
+</head>
+<body>
+    <div id="nav-bar">
+        <ul><a href="/index.html"> <i class="fas fa-dice-six" style="font-size: 28px;"></i></a></ul>
+        <ul><a href="/dado/ekko/ekko.html"> <i class="fas fa-bed" style="font-size: 24px;"></i></a></ul>
+        <ul><a href="/dado/ar/ar.html"> <i class="fas fa-wind"style="font-size: 24px;"></i></a></ul>
+        <ul><a href="/dado/doente/doente.html"> <i class="fas fa-lightbulb"style="font-size: 24px;"></i></a></ul>
+        <ul><a href="/dado/Yasuo/yasuo.html"> <i class="fas fa-leaf"style="font-size: 24px;"></i></a></ul>
+    </div>
+    <div id="ar">
+        <img src="ar.png" alt="ar_condicionado">
+    </div>
+
+    <div id="control">
+        <button onclick="play()">
+            <img src="controle.png" alt="">
+        </button>
+    </div>
+
+    <audio id="audio" src="sfx.mp3"></audio>
+    
+</body>
+</html>
