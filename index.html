@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Dice roll</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/nav-bar.css">
+    <link rel="icon" href="d20.png">
+    <script type="text/javascript" src="script.js"></script>  
+    <script src="https://kit.fontawesome.com/03aeeebc9c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="nav-bar">
+        <ul><a href="/index.html"> <i class="fas fa-dice-six" style="font-size: 28px;"></i></a></ul>
+        <ul><a href="/dado/ekko/ekko.html"> <i class="fas fa-bed" style="font-size: 24px;"></i></a></ul>
+        <ul><a href="/dado/ar/ar.html"> <i class="fas fa-wind"style="font-size: 24px;"></i></a></ul>
+        <ul><a href="/dado/doente/doente.html"> <i class="fas fa-lightbulb"style="font-size: 24px;"></i></a></ul>
+        <ul><a href="/dado/Yasuo/yasuo.html"> <i class="fas fa-leaf"style="font-size: 24px;"></i></a></ul>
+    </div>
+
+    <button id="button">
+        <img src="d20.png">
+        <span id="placeholder" name="result"></span>
+    </button>
+
+    <input type="button" value="Undo" id="del" onclick="del()">
+    <input type="button" value="Del" id="delAll" onclick="delAll()">
+    
+    <input type="color" id="cor" onchange="changeColor()">
+    
+    <div id="results">
+        <ul id="messages" class="myMessages"></ul>
+        <span id="textbox"></span>
+    </div>
+  
+    <audio id="audio" src="./rolando.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>

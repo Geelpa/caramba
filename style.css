@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    
+    background-color: rgb(15, 116, 199);
+    
+    width: 100%;
+    height: 100%;
+
+
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; 
+}
+
+
+button,
+img {
+    width: 14vw;
+    min-width: 200px;
+
+    background-color: transparent;
+    cursor: pointer;
+
+    margin-top: 4%;
+    margin-left: 50%;
+    transform: translate(-50%);
+
+    outline: none;
+    border: none;
+}
+
+button span  {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande',
+     'Lucida Sans', Arial, sans-serif;
+
+}
+input#del,
+input#delAll {
+    height: 30px;
+    width: 44px;
+    max-width: 40px;
+
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.651); 
+    
+    font-family: 'Catamaran', sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+input#del {
+    position: absolute;
+    top: 6%;
+    right: 1%;
+}
+input#delAll {
+    position: absolute;
+    top: 11%;
+    right: 1%;
+    
+}
+
+span#placeholder {
+    margin-top: -70%;
+    position: fixed;
+    transform: translate(-50%);
+
+    font-size: 3.2rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS',
+                 'Lucida Sans Unicode',
+                 'Lucida Grande', 
+                 'Lucida Sans', 
+                  Arial, sans-serif;
+}
+
+#cor {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+
+    height: 28px;
+    width: 40px;
+
+    background-color: rgba(255, 255, 255, 0.651);
+    border-radius: 8px;
+    outline: none;
+}
+
+
+#messages  {
+    width: 56%;
+    max-width: 600px;
+    margin-left: 50%;
+    margin-top: 4%;
+    transform: translate(-50%);
+    
+    line-height: 3.0rem;
+    font-size: 2.0rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.425);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+
+
