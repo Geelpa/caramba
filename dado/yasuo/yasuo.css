@@ -42,7 +42,7 @@ header{
 #footer a+a{
     margin-left: 200px;
     margin-top: 50px;
-    
+    font-family: "BeaufortforLOL-Bold", sans-serif;
 }
 #footer {
     position: fixed;
@@ -54,7 +54,7 @@ header{
     text-align: center;
     color: rgba(0, 0, 0, 0.808);   
     background: linear-gradient(rgba(13, 35, 61, 0.473), rgba(45, 89, 139, 0.384));
-    
+    font-family: "BeaufortforLOL-Bold", sans-serif;
 }
 
 
@@ -65,7 +65,7 @@ header{
     margin-top: 40px; 
     margin: 100px;
     
-    
+    font-family: "BeaufortforLOL-Bold", sans-serif;
 }
 
 #footer :hover, .links a:hover {
@@ -95,6 +95,7 @@ header{
     
     border-radius: 8px;
     backdrop-filter: blur(3px);
+    font-family: "BeaufortforLOL-Bold", sans-serif;
 }
 
 #wrapper img {
@@ -118,7 +119,7 @@ header{
     
     color: var(--color-white);
     font-weight: bolder;
-    
+    font-family: "BeaufortforLOL-Bold", sans-serif;
 }
 
 #wrapper h2 {
@@ -127,6 +128,7 @@ header{
     font-weight: normal;
     font-style: italic;
     color: var(--color-white)
+    font-family: "BeaufortforLOL-Bold", sans-serif;
 }
 
 #wrapper p {
@@ -136,5 +138,6 @@ header{
     font-size: 22px;
     line-height: 30px;
     color: var(--color-white);
+    font-family: "BeaufortforLOL-Bold", sans-serif;
 }
 
