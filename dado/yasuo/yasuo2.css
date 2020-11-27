@@ -1,0 +1,82 @@
+@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";
+@import "https://db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold";
+
+
+:root {
+    --color-blue: rgb(100, 170, 250);
+    --color-white:rgb(88, 167, 212);
+}
+
+* {
+    margin: 0;
+    border:0;
+    padding: 0;
+}
+
+body {
+    background-image: URL("https://images4.alphacoders.com/104/thumb-1920-1049202.jpg");
+    font-family: "BeaufortforLOL-Bold", sans-serif;
+}
+
+header{
+    padding: 16px;
+    background: linear-gradient(rgba(27, 66, 110, 0.74), rgba(46, 115, 194, 0.247));
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    color:rgb(255, 255, 255);
+    font-size: 28px;
+    line-height: 30px;
+    text-decoration: none;
+       
+    display: inline;
+    justify-content: space-around;
+    margin: 250px;
+    transform: translate(-50%);
+}
+
+#wrapper {
+    text-align: center;
+    
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+
+    padding: 42px;
+    background: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.993));
+    
+    width: 45vw;
+    height: 47vh;
+    
+    border-radius: 8px;
+    backdrop-filter: blur(3px);
+}
+
+#wrapper h1 {
+    font-size: 64px;
+    line-height: 74px;
+    
+    color: var(--color-white);
+    font-weight: bolder;
+    
+}
+
+
+#wrapper p {
+    text-decoration: none;
+    margin-top: 18px;
+    
+    font-size: 22px;
+    line-height: 30px;
+    color: var(--color-white);
+}
+
+.card_content {
+    justify-content: center;
+    align-items: center;
+}
